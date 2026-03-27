@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Heading -->
+        <h1>Expense Tracker</h1>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            
+            <!-- Expense Name -->
+            <input type="text" id="name" placeholder="Enter expense name">
+
+            <!-- Expense Amount -->
+            <input type="number" id="amount" placeholder="Enter amount">
+
+            <!-- Add Button -->
+            <button id="addBtn">Add Expense</button>
+
+        </div>
+
+        <!-- Divider -->
+        <hr>
+
+        <!-- Expense List Section -->
+        <div class="list-section">
+
+            <h2>History</h2>
+
+            <!-- JS yaha list add karega -->
+            <ul id="list"></ul>
+
+        </div>
+
+        <!-- Total Section -->
+        <div class="total-section">
+
+            <h2>Total: ₹ <span id="total">0</span></h2>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
